@@ -1,0 +1,42 @@
+export const attendanceData = [
+  {
+    id: 1,
+    course: 'Introduction to Computer Science',
+    time: '9:00 - 10:30 AM',
+    room: 'Room 301',
+    instructor: 'Dr. Smith',
+    status: 'present',
+  },
+  {
+    id: 2,
+    course: 'Calculus I',
+    time: '11:00 - 12:30 PM',
+    room: 'Room 201',
+    instructor: 'Prof. Johnson',
+    status: 'present',
+  },
+  {
+    id: 3,
+    course: 'Introduction to Physics',
+    time: '2:00 - 3:30 PM',
+    room: 'Lab 102',
+    instructor: 'Dr. Williams',
+    status: 'late',
+  },
+  {
+    id: 4,
+    course: 'World Literature',
+    time: '4:00 - 5:30 PM',
+    room: 'Room 405',
+    instructor: 'Prof. Davis',
+    status: 'absent',
+  },
+  {
+    id: 5,
+    course: 'Data Structures and Algorithms',
+    time: '9:00 - 10:30 AM',
+    room: 'Room 302',
+    instructor: 'Dr. Wilson',
+    status: 'pending',
+  },
+];

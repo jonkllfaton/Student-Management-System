@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EduManager</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Students</a>
+            <a href="#">Courses</a>
+            <a href="#">Grades</a>
+            <a href="#" id="loginBtn">Login</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="dashboard">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Total Students</h3>
+                    <p class="stat-number">1,234</p>
+                    <p class="stat-change">+12% from last month</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Active Courses</h3>
+                    <p class="stat-number">48</p>
+                    <p class="stat-change">+3 new courses</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Average Grade</h3>
+                    <p class="stat-number">87%</p>
+                    <p class="stat-change">+2.5% improvement</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Attendance Rate</h3>
+                    <p class="stat-number">95%</p>
+                    <p class="stat-change">+1% this week</p>
+                </div>
+            </div>
+
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <div class="activity-list" id="activityList">
+                    <!-- Activity items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
